@@ -81,24 +81,24 @@ public class Main {
         
             if (firstCor == 1) {
                 if (secondCor == 1) {
-                    if (ch[6] == '_') {
-                        ch[6] = s;
+                    if (ch[0] == '_') {
+                        ch[0] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
                         continue;
                     }
                 } else if (secondCor == 2) {
-                    if (ch[3] == '_') {
-                        ch[3] = s;
+                    if (ch[1] == '_') {
+                        ch[1] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
                         continue;
                     }
                 } else if (secondCor == 3) {
-                    if (ch[0] == '_') {
-                        ch[0] = s;
+                    if (ch[2] == '_') {
+                        ch[2] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
@@ -110,8 +110,8 @@ public class Main {
                 }
             } else if (firstCor == 2) {
                 if (secondCor == 1) {
-                    if (ch[7] == '_') {
-                        ch[7] = s;
+                    if (ch[3] == '_') {
+                        ch[3] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
@@ -126,8 +126,8 @@ public class Main {
                         continue;
                     }
                 } else if (secondCor == 3) {
-                    if (ch[1] == '_') {
-                        ch[1] = s;
+                    if (ch[5] == '_') {
+                        ch[5] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
@@ -139,24 +139,24 @@ public class Main {
                 }
             }  else if (firstCor == 3) {
                 if (secondCor == 1) {
-                    if (ch[8] == '_') {
-                        ch[8] = s;
+                    if (ch[6] == '_') {
+                        ch[6] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
                         continue;
                     }
                 } else if (secondCor == 2) {
-                    if (ch[5] == '_') {
-                        ch[5] = s;
+                    if (ch[7] == '_') {
+                        ch[7] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
                         continue;
                     }
                 } else if (secondCor == 3) {
-                    if (ch[2] == '_') {
-                        ch[2] = s;
+                    if (ch[8] == '_') {
+                        ch[8] = s;
                         break;
                     } else {
                         System.out.println("This cell is occupied! Choose another one!");
