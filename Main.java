@@ -64,14 +64,14 @@ public class Main {
         boolean draw = false;
         
         if (winner1 == false && winner2 == false) {
-            if (ch[0] != '_' && ch[1] != '_' && ch[2] != '_' &&
+            if (ch[0] != '_' && ch[1] != '_' && ch[2] != '_' && // Checks if the field is filled up 
                 ch[3] != '_' && ch[4] != '_' && ch[5] != '_' &&
                 ch[6] != '_' && ch[7] != '_' && ch[8] != '_') {
                 draw = true;
         }
 
         while(winner1 == false && winner2 == false && draw == false) {
-            if (i % 2 == 0) {
+            if (i % 2 == 0) { // Switching between X and O
                 s = 'O';
             } else {
                 s = 'X';
