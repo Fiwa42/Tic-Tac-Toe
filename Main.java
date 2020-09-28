@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
 		
-		char[] ch = new char[] {'_', '_', '_', '_', '_', '_', '_', '_', '_'};
-		char s = ' ';
+	char[] ch = new char[] {'_', '_', '_', '_', '_', '_', '_', '_', '_'};
+	char s = ' ';
 		
-		System.out.println("---------");
+	System.out.println("---------");
         System.out.println("| " + ch[0] + " " + ch[1] + " " + ch[2] + " |" + "      | 1 1  1 2  1 3 |");
         System.out.println("| " + ch[3] + " " + ch[4] + " " + ch[5] + " |" + "      | 2 1  2 2  2 3 |");
         System.out.println("| " + ch[6] + " " + ch[7] + " " + ch[8] + " |" + "      | 3 1  3 2  3 3 |");
